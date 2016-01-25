@@ -10,11 +10,11 @@ function getJsonTweets($query,$num_tweets){
         require_once('TwitterAPIExchange.php');
  
         /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
-       $settings = array(
-            'oauth_access_token' => "",
-            'oauth_access_token_secret' => "",
-            'consumer_key' => "",
-            'consumer_secret' => ""
+        $settings = array(
+            'oauth_access_token' => "393499833-zI2PEXL3RAiW4lFjvwzvxvNlxhf51jp5vZlmkfEQ",
+            'oauth_access_token_secret' => "yMTfG5C1KC2w7eIzf6uJXIrgwaisbHgvAZqEm1w0IYTD3",
+            'consumer_key' => "lqoSEkKOUuJllQ86N2M6HKPlw",
+            'consumer_secret' => "gL8iSowsZJq9DEMU3oP3rmsJWEeROBIFBjwgdD3nJXPaBakl8U"
         );
         
         if($num_tweets>100) $num_tweets = 100;
